@@ -1,0 +1,16 @@
+footer {
+    margin: 10px;
+    background-color:$colorFon;
+    opacity: .5;
+    padding: 10px;
+    width: 95%;
+    color:$colorFooter;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .redes{
+        width: 30px;
+        text-align: right;
+    }
+}

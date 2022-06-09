@@ -1,0 +1,39 @@
+.intro
+h1{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: $colorTit;
+
+}
+    .nav{
+        width: 80%;
+        background-color: $colorText;
+        margin: 10px auto;
+        .menu{
+            list-style-type: none;
+            padding: 10px;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .boton{
+            padding: 10px;
+            margin: 10px;
+            &:hover{
+                background-color:$colorText;
+                border-radius: 20%;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color:$colorHover;
+                    font-weight: bold;
+
+                        
+                        }
+                }
+            }
+        }
+    

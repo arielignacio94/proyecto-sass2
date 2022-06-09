@@ -1,0 +1,27 @@
+$colorFondo:black;
+$colorTit:blueviolet;
+$colorText:blueviolet;
+$colorFooter:#8d8c86;
+$colorFon:white;
+$colorHover:fuchsia;
+
+@import "header";
+@import "main";
+@import "footer";
+
+body{
+    margin: 10px;
+    padding: 0px;
+    background-color:$colorFondo;
+    background-image:url(https://images.pexels.com/photos/39511/purple-grapes-vineyard-napa-valley-napa-vineyard-39511.jpeg?cs=srgb&dl=pexels-pixabay-39511.jpg&fm=jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+    
+
+
+

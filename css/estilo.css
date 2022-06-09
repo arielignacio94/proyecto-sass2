@@ -1,0 +1,100 @@
+.intro
+h1 {
+  text-align: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: blueviolet;
+}
+
+.nav {
+  width: 80%;
+  background-color: blueviolet;
+  margin: 10px auto;
+}
+
+.nav .menu {
+  list-style-type: none;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav .boton {
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav .boton:hover {
+  background-color: blueviolet;
+  border-radius: 20%;
+}
+
+.nav .boton a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav .boton a:hover {
+  color: fuchsia;
+  font-weight: bold;
+}
+
+.main1
+h3 {
+  margin: 1rem;
+  padding: 0,7rem;
+  color: blueviolet;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: left;
+}
+
+.main1
+h3 .img {
+  width: 50px;
+  text-align: center;
+}
+
+footer {
+  margin: 10px;
+  background-color: white;
+  opacity: .5;
+  padding: 10px;
+  width: 95%;
+  color: #8d8c86;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .redes {
+  width: 30px;
+  text-align: right;
+}
+
+body {
+  margin: 10px;
+  padding: 0px;
+  background-color: black;
+  background-image: url(https://images.pexels.com/photos/39511/purple-grapes-vineyard-napa-valley-napa-vineyard-39511.jpeg?cs=srgb&dl=pexels-pixabay-39511.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=estilo.css.map */
